@@ -1,0 +1,6 @@
+searchButton: //android.widget.Button[@resource-id="com.example.myapplication:id/search_flight"]
+searchActionbar: //android.widget.LinearLayout[@resource-id="com.example.myapplication:id/action_bar_root"]
+insertFlightNumber: //android.widget.EditText[@resource-id="com.example.myapplication:id/flight_number"]
+searchFlightButton: //android.widget.Button[@resource-id="com.example.myapplication:id/searchFlight"]
+message: //android.widget.ImageButton[@resource-id="com.example.myapplication:id/fab"]
+flightCode: DA935

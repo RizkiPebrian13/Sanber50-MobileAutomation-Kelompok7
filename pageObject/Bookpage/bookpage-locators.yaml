@@ -1,0 +1,39 @@
+bookButton: //android.widget.Button[@resource-id="com.example.myapplication:id/book"]
+bookToolbar: //android.view.ViewGroup[@resource-id="com.example.myapplication:id/toolbar"]
+appLogo2: //android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView4"]
+scrollView: //android.widget.HorizontalScrollView
+layout: //android.widget.LinearLayout[@resource-id="com.example.myapplication:id/linearLayout2"]
+oneWay: //android.support.v7.app.ActionBar.Tab[@content-desc="One Way"]
+roundTrip: //android.support.v7.app.ActionBar.Tab[@content-desc="Round Trip"]
+fromCity: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerFrom"]
+chooseNewYork: //android.widget.TextView[@resource-id="android:id/text1" and @text="New York"]
+chooseChicago: //android.widget.TextView[@resource-id="android:id/text1" and @text="Chicago"]
+chooseToronto: //android.widget.TextView[@resource-id="android:id/text1" and @text="Toronto"]
+toCity: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerTo"]
+chooseLondon: //android.widget.TextView[@resource-id="android:id/text1" and @text="London"]
+chooseParis: //android.widget.TextView[@resource-id="android:id/text1" and @text="Paris"]
+chooseOttawa: //android.widget.TextView[@resource-id="android:id/text1" and @text="Ottawa"]
+classFlight: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerClass"]
+chooseEconomy: //android.widget.TextView[@resource-id="android:id/text1" and @text="Economy"]
+chooseFirst: //android.widget.TextView[@resource-id="android:id/text1" and @text="First"]
+chooseBusiness: //android.widget.TextView[@resource-id="android:id/text1" and @text="Business"]
+startDate: //android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]
+chooseStartDate: //android.view.View[@content-desc="01 August 2019"]
+endDate: //android.widget.TextView[@resource-id="com.example.myapplication:id/textEndDate"]
+chooseEndDate: //android.view.View[@content-desc="09 August 2019"]
+chooseOkDate: //android.widget.Button[@resource-id="android:id/button1"]
+onlyFlight: //android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlight"]
+flightHotel: //android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlightHotel"]
+1Day: //android.widget.CheckBox[@resource-id="com.example.myapplication:id/checkBoxDay"]
+clickBookButton: //android.widget.Button[@resource-id="com.example.myapplication:id/book_flight"]
+viewBookingGroup: //android.widget.FrameLayout[@resource-id="android:id/content"]/android.view.ViewGroup
+startReturn: //android.widget.Button[@text="Start/Return"]
+price1860: //android.widget.Button[@resource-id="com.example.myapplication:id/price1"]
+confirmBookButton: //android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]
+frameLayoutToCity: /hierarchy/android.widget.FrameLayout
+frameLayoutCity: /hierarchy/android.widget.FrameLayout/android.widget.FrameLayout
+frameLayoutCity1: /hierarchy/android.widget.FrameLayout
+listViewFrom: //android.widget.ListView
+dateLayout: /hierarchy/android.widget.FrameLayout/android.widget.FrameLayout
+frameDateLayout: //android.widget.FrameLayout[@resource-id="android:id/content"]
+frameEndDate: //android.widget.LinearLayout[@resource-id="android:id/parentPanel"]
